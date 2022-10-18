@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* INDEX */
+/* contenedor principal */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/img-hifi-app/istockphoto-1273389486-170667a.jpg);
+    background-size: 100%;
+}
+/* editar header */
+.header-index{
+    width: 100%;
+    height: 30rem;
+
+}
+/* contenedor info 23-112 */
+.contenido-index{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div-logo-index{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+}
+.logotipo-index{
+    height: 5rem;
+    width: 5rem;
+    background-image: url(../image/img-hifi-app/logo.png);
+    background-size: 100%;
+    border: 1px solid;
+    border-radius: 40px;
+}
+.div-logo-index h2{
+   color: white;
+}
+.text-index{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 241, 241);
+}
+.contenido-index-2{
+    width: 100%;
+    height: 8rem;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botones-index{
+    width: 90%;
+    height: 90%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.register-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 3rem;
+     color: #0072FF;
+     background-color: white;
+     border-radius: 10px;
+     text-decoration: none;
+     font-size: 10px;
+     transition: .2s;
+
+}
+.register-index:hover{
+    background-color: blue;
+    color: white;
+}
+.login-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 3rem;
+     color: white;
+     background-color: gray;
+     opacity: 80%;
+     border-radius: 10px;
+     text-decoration: none;
+     font-size: 10px;
+     transition: .2s;
+}
+.login-index:hover{
+    background-color: blue;
+    color: white;
+}
+/* editar footer */
+.pie-index{
+
+    width: 100%;
+    height: 1rem;
+}
+/* LOGIN */
+/* contenedor principal-login */
+.contenedor-login{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+
+}
+/* header login 128 - 154 */
+.header-login{
+    height: 10rem;
+    width: 100%;
+}
+.div-return-login{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.return-login{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 2rem;
+    height: 5rem;
+
+    background-color: white;
+}
+.return-login i{
+    margin-left: 10px;
+    color: #0072FF;
+}
+.return-login h1{
+    color: black;
+}
+/* editas seldas de informacion 154 - 205 */
+.data-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 15rem;
+    align-items: center;
+}
+
+.div-email{
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+}
+.div-email h5{
+    color: gray;
+    width: 90%;
+    }
+input{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    height: 3rem;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #0072FF;
+    color: #0072FF;
+}
+.div-password{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+.div-password h5{
+        color: gray;
+        width: 90%;
+        }
+.li-login{
+    display: flex;
+    width: 90%;
+    flex-grow: 1;
+    list-style: none;
+
+}
+/* editar boton login 206 - 225*/
+.contenedor-login-boton{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.div-login{
+    height: 3rem;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #0072FF;
+    border-radius: 20px;
+}
+.login{
+    text-decoration: none;
+    color: white;
+}
+/* editar hr y or 226-240 */
+.or{
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    height: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    color: #0072FF;
+}
+hr{
+
+    color: #0072FF;
+    width: 42%;
+}
+/* editar logos 241-270 */
+.logotipos{
+    width: 100%;
+    height: 8rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+}
+.logotipo{
+    height: 3rem;
+    width: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo img{
+    width: 3rem;
+    height: 3rem;
+}
+/* link account */
+.link-account{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* boton register 279-294 */
+.div-register{
+    height: 3rem;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(213, 213, 241);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.register{
+    text-decoration: none;
+    color: blue;
+
+}
+
+
+/* Profile */
+
+.body-profile{
+    background-color: #e1eaf5;
+}
+/* contenedor principal */
+.contenedor-profile{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+/* editar header 309- 335 */
+.header-profile{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-return-profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.return-profile{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 2rem;
+    height: 5rem;
+}
+.return-profile i{
+    margin-left: 10px;
+    color: #0072FF;
+}
+.return-profile h1{
+    color: black;
+}
+
+/*foto de perfil */
+.art-perfil-profile{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-image: url(../image/cloudy.jpg);
+    background-size: 100%;
+}
+/* editar section del perfil 347 - 412 */
+.sect-1-profile{
+    height: 18rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-sect-profile{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foto-perfil-profile{
+    height: 8rem;
+    width: 8rem;
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(../image/img-hifi-app/elon.jpg);
+    background-size: cover;
+
+}
+
+
+.main-sect-profile{
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.sect-calif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.hr-black{
+    color: rgb(109, 109, 109);
+    width: 90%;
+    opacity: 10%;
+}
+.calificaciones-profile{
+    display: flex;
+    width: 90%;
+    background-color: #F9F9FA;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-calificaciones{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    gap: 10px;
+}
+.aux{
+    height: 1rem;
+    width: 1rem;
+
+    justify-content: center;
+    display: flex;
+}
+.aux i{
+    color: #0072FF;
+}
+/* section de archivos 413-487 */
+.archives-profiles{
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+.div-document{
+ height: 6rem;
+ width: 6rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 5px;
+}
+.document{
+    border-radius: 10px;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 248, 128);
+}
+.document i{
+    font-size: 50px;
+    color: green;
+}
+.div-video{
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.video{
+    border-radius: 10px;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 174, 174, 0.938);
+}
+.video i{
+    font-size: 50px;
+    color: red;
+}
+.div-microfono{
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.microfono{
+    border-radius: 10px;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 188, 40, 0.527);
+}
+.microfono i{
+    font-size: 50px;
+    color: rgb(255, 166, 0);
+}
+/* editar profesionalidades 488 - 536 */
+.teaches{
+    height: 3rem;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+.teaches>article{
+    height: 2rem;
+    width: 11rem;
+    border-radius: 10px;
+    background: #aac8ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0072FF;
+}
+.team{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin-left: 20px;
+    gap: 20px;
+}
+.team-art1{
+    color: #0072FF;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 10px;
+    background: #aac8ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team-art2{
+    color: #0072FF;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 10px;
+    background: #aac8ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* editar chat flotante 537 - 556 */
+#mesagee{
+    width: 4rem;
+    height: 4rem;
+    background-color: #0072FF;
+    border-radius: 30px;
+    position: absolute;
+     left: 290px;
+    top: -18px;
+}
+.Speaks article{
+    position: relative;
+}
+#mesagie{
+    font-size: 2.5em;
+    color: #F9F9FA;
+    position: absolute;
+    left: 88%;
+    bottom: 1em;
+}
+/* editar idiomas de perfil 557 - 572 */
+.Speaks{
+    position: relative;
+    width: 90%;
+    height: 4.5rem;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Speaks>article{
+    display: flex;
+    gap: 10px;
+}
+.p-resaltado{
+    color: #0072FF;
+}
+
+/* editar menu de iconos 574 - 605 */
+.menu-iconcs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-grow: 1;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menu-iconcs>i{
+    font-size: 50px;
+    color: gray;
+}
+.menu-iconcs>article{
+    width: 3rem;
+    height: 3rem;
+    background-color: #0072FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+}
+.menu-iconcs>article{
+    font-size: 30px;
+}
+
+#edificio-menu{
+    color: #0072FF;
+}

@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    background-color: #272944;
+}
+/* contenedor principal */
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+/* contenedor secundario */
+.contenedor-2{
+   display: flex;
+   height: 90vh;
+   flex-grow: 1;
+   margin: 30px;
+}
+/* modificar aside 28-98 */
+.sidebar{
+    display: flex;
+     width: 15rem;
+     flex-direction: column;
+     background-color: #F9F9FA;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo{
+    background-color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 40px;
+}
+.main-sidebar{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main-sidebar div{
+    display: flex;
+    align-items: center;
+}
+.nav>a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav1>a{
+    color: black;
+    text-decoration: none;
+}
+.cuadro{
+margin: 10px;
+width: 1rem;
+height: 1rem;
+background-color: #272944;
+}
+
+.cuadro-users{
+    height: 1rem;
+    width: 1rem;
+    background-color: #272944;
+    margin: 10px;
+}
+.div-cuadro{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.div-cuadro>a{
+    color: black;
+    text-decoration: none;
+}
+.pie-sidebar{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 5rem;
+
+}
+/* contenedor de informacion */
+.cont-main{
+    flex-grow: 1;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+/* articulos de visitas */
+.header-visitas{
+    background-color: #F9F9FA;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.cuadro-visits{
+    height: 2rem;
+    width: 2rem;
+    background-color: #363853;
+}
+.cuadro-visit{
+    height: 2rem;
+    width: 2rem;
+    background-color: #363853;
+}
+.text-cuadro-visit{
+    display: flex;
+    flex-direction: column;
+}
+.text-cuadro-visit>h5{
+    color: gray;
+}
+/* header del contendero 107- */
+.header-cont{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+/* modificar header 115-150 */
+.div-search{
+    justify-content: space-between;
+    display: flex;
+    height: 3rem;
+}
+.art-search{
+ display: flex;
+ height: 3rem;
+ width: 60vh;
+ background-color: #F9F9FA;
+ align-items: center;
+}
+.div-idioma{
+    gap: 1rem;
+    display: flex;
+    height: 3rem;
+    width: 30vh;
+}
+.art-idioma{
+
+    align-items: center;
+    width: 4rem;
+    height: 2rem;
+    background-color: #F9F9FA;
+    display: flex;
+    justify-content: center;
+}
+.art-idioma>p{
+    font-size: 22px;
+}
+.cuadro-2{
+    background-color: #363853;
+    width: 2rem;
+    height: 2rem;
+}
+/* aside de customer */
+.new-customers{
+    width: 100%;
+    height: 9rem;
+    background-color: #F9F9FA;
+
+}
+.new-customers header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sect-customers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.art-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 15rem;
+    background-color: #F9F9FA;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.main-visitas{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-top: 10px;
+}
+.aside-visitas{
+    flex-direction: column;
+    display: flex;
+    width: 15rem;
+    gap: 10px;
+
+}
+
+
+.art-visitas{
+    flex-grow: 1;
+    background-color: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.art-visitas>h5{
+    margin-left: 30px;
+    color: gray;
+}
+.sect-visitas{
+    height: 15rem;
+    background-color: #F9F9FA;
+}
+.sect-visitas h5{
+    margin-left: 10px;
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.categories-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    background-color: #e2e2fd;;
+}
+.categories-2 h3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.categories h5{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.categories h3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* contenedor de total articles */
+.content-numbers{
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    padding-left: 15px;
+    flex-direction: column;
+    gap: 10px;
+}
+/* contenedor de total numbers 280-294 */
+.cont-frame{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.frame{
+    width: 15rem;
+    height: 5rem;
+    background-color: #F9F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+/* contenedor de visitors 295-316 */
+.visitor{
+    background-color: #F9F9FA;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.visitor-art{
+    margin-top: 5px;
+    width: 97%;
+    height: 70%;
+    background-color: #e2e2fd;
+    margin-left: 10px;
+}
+.cont-select{
+    padding-top: 10px;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
+/* contenedor de articulos peliculas 318-351 */
+.cont-articles-scroll{
+    width: 100%;
+    height: 10rem;
+    background-color: #F9F9FA;
+    overflow-y: scroll;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.div-movies{
+    width: 90%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuadro-scroll{
+    height: 2rem;
+    width: 4rem;
+    background-color: #e2e2fd;
+}
+.active{
+    height: 1.5rem;
+    width: 5rem;
+    border: 2px solid #363853;
+    text-align: center;
+}
+.div-movies-principal{
+    width: 90%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeef1;
+}

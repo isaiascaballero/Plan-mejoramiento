@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* index */
+.index{
+    background-color: #5457AC;
+}
+
+/* contenedor principal */
+.contenedor1-index{
+    display: flex;
+    background-color: #3F3368;
+    border-radius: 40px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* contenedor secundario */
+.contenedor2-index{
+    background-color: #5457AC;border-radius: 40px;
+    display: flex;
+    width: 94%;
+    height: 98%;
+    background-color: #21183C;
+    flex-direction: column;
+   
+}
+/* editar header 31 - 95 */
+.encabezado-index{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 100%;
+    height: 8rem;
+}
+.categories-index{
+    width: 93%;
+    margin-top: 30px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+}
+.encabezado-index>h3{
+    color: white;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.text-index{
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+}
+.text-index>article{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-index>article>i{
+    font-size: 30px;
+    color: white;
+}
+.text-index>p{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.logotipo{
+    margin-left: 20px;
+}
+.search-index{
+    display: flex;
+   width: 6rem;
+   height: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-index>article{
+
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+}
+.search-index>article>a ,i{
+    font-size: 20px;
+    color: white;
+}
+
+/* editar section de los articulos o peliculas 97 -115 */
+.sect-articulos{
+    height: 100%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+   
+}
+.contenedor-articles-peliculas{
+    background-color: #281c4d;
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* editar articulos o peliculas 116-291 */
+.peliculas-index{
+    align-items: center;
+    width: 93%;
+    margin-left: 10px;
+    height: 6rem;
+    display: flex;
+    gap: 10px;
+}
+/* LOGOS DE LOS ARTICULOS */
+.logo-peliculas-index{
+    background-image: url(../image/img-privio/OIP.jpg);
+    background-size: cover;
+    border: 1px solid;
+    height: 5rem;
+    width: 6rem;
+}
+.logo-peliculas-index i{
+    color: gray;
+    margin-top: 60%;
+    margin-left: 80%;
+}
+
+/* logo 2 */
+
+.logo-peliculas-index2{
+    background-image: url(../image/img-privio/joker.jpg);
+    background-size: cover;
+    border: 1px solid;
+    height: 5rem;
+    width: 6rem;
+}
+.logo-peliculas-index2 i{
+    color: gray;
+    margin-top: 60%;
+    margin-left: 80%;
+}
+
+/* logo 3 */
+
+.logo-peliculas-index3{
+    background-image: url(../image/img-privio/dj.jpg);
+    background-size: cover;
+    border: 1px solid;
+    height: 5rem;
+    width: 6rem;
+}
+.logo-peliculas-index3 i{
+    color: gray;
+    margin-top: 60%;
+    margin-left: 80%;
+}
+/* logo 4 */
+.logo-peliculas-index4{
+    background-image: url(../image/img-privio/the-king\sjpg.jpg);
+    background-size: cover;
+    border: 1px solid;
+    height: 5rem;
+    width: 6rem;
+}
+.logo-peliculas-index4 i{
+    color: gray;
+    margin-top: 60%;
+    margin-left: 80%;
+}
+/* logo 4 */
+
+
+.logo-peliculas-index5{
+    background-image: url(../image/img-privio/wonder.jpg);
+    background-size: cover;
+    border: 1px solid;
+    height: 5rem;
+    width: 6rem;
+}
+.logo-peliculas-index5 i{
+    color: gray;
+    margin-top: 60%;
+    margin-left: 80%;
+}
+
+
+.info-peliculas-index{
+ display: flex;
+ flex: 1;
+height: 100%;
+align-items: center;
+flex-direction: column;
+}
+.info-peliculas-index>header{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.fecha-pelicula-index{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+
+}
+.info-peliculas-index h6{
+    color: white;
+
+}
+
+/* Botones */
+
+/* color verde */
+
+.boton-color{
+    height: 1.1rem;
+    width: 5rem;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-color p{
+    font-size: 15px;
+}
+
+/* color rosa */
+
+.boton-color2{
+    height: 1.1rem;
+    width: 5rem;
+    background-color: rgb(218, 85, 136);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-color2 p{
+    font-size: 15px;
+}
+/* boton morado */
+
+.boton-color3{
+    height: 1.1rem;
+    width: 5rem;
+    background-color: #5457AC;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-color3 p{
+    font-size: 15px;
+}
+
+.info-peliculas-index>section{
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.info-peliculas-index>footer{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: gray;
+}
+.info-peliculas-index>footer>i{
+    margin-left: 60%;
+}
+
+/* Search */
+
+/* body search */
+.search{
+    background-color: #5457AC;
+}
+
+/* contenedor principal */
+.contenedor1-search{
+    display: flex;
+    background-color: #3F3368;
+    border-radius: 40px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/*  contenedor secundario */
+.contenedor2-search{
+    /* background-color: #5457AC; */
+    border-radius: 25px;
+    display: flex;
+    width: 94%;
+    height: 98%;
+    background-color: #21183C;
+    flex-direction: column;
+    align-items: center;
+}
+/*  editar header 320 - 342 */
+.encabezado-search{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 100%;
+    height: 8rem;
+
+}
+.categories-search{
+    width: 93%;
+    margin-top: 30px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+   
+}
+.encabezado-search>h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* section de las peliculas o articulos */
+.sect-articulos{
+    height: 100%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/*  editar peliculas o articulos 354 - 450 */
+.peliculas-search{
+    width: 93%;
+    height: 3rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.peliculas-search>article{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    width: 60%;
+    border-bottom: 1px solid white;
+
+}
+.peliculas-search>article>i{
+color: white;
+}
+
+.arrow{
+    color: white;
+}
+.peliculas-search>div{
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-items: center;
+}
+.contenedor-peliculas{
+    display: flex;
+    flex-wrap: wrap;
+    height: 84%;
+    margin-left: 10px;
+    width: 93%;
+    gap: 20px;
+    padding-top: 30px;
+}
+.peliculas-search-info{
+    color: white;
+    height: 17rem;
+    width: 9.2rem;
+}
+.peliculas-search-info>h4{
+    padding-top: 10px;
+
+}
+
+/* logos peliculas */
+.logos-search{
+    width: 100%;
+    height: 14rem;
+    border-radius: 30px;
+    background-image: url(../image/img-privio/OIP.jpg);
+    background-size: cover;
+}
+.logos-search2{
+    width: 100%;
+    height: 14rem;
+    border-radius: 30px;
+    background-image: url(../image/img-privio/joker.jpg);
+    background-size: cover;
+}
+.logos-search3{
+    width: 100%;
+    height: 14rem;
+    border-radius: 30px;
+    background-image: url(../image/img-privio/dj.jpg);
+    background-size: cover;
+}
+.logos-search4{
+    width: 100%;
+    height: 14rem;
+    border-radius: 30px;
+    background-image: url(../image/img-privio/tk.jpg);
+    background-size: 100%;
+}
+.logos-search>a>i{
+    margin-top: 190px;
+    margin-left: 80%;
+}
+
+.logos-search2>i{
+    margin-top: 190px;
+    margin-left: 80%;
+}
+.logos-search3>i{
+    margin-top: 190px;
+    margin-left: 80%;
+}
+.logos-search4>i{
+    margin-top: 190px;
+    margin-left: 80%;
+}
+
+/* trailer */
+
+/* body trailer */
+.trailer{
+    background-color: #5457AC;
+}
+/* contenedor principal */
+.contenedor1-trailer{
+    display: flex;
+    background-color: #3F3368;
+    border-radius: 40px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/*  contenedor secundario */
+.contenedor2-trailer{
+    border-radius: 25px;
+    display: flex;
+    width: 94%;
+    height: 98%;
+    flex-direction: column;
+}
+/* editar header 476 - 543 */
+.header-trailer{
+    background-image: url(../image/img-privio/wonder-woman.jpg);
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header-trailer>header{
+    height: 3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.header-trailer>header>a>i{
+    font-size: 30px
+}
+.header-trailer>section{
+    display: flex;
+    flex-grow: 1;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header-trailer>section>article{
+    background-color: wheat;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 25px;display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.header-trailer>section>article>i{
+    color: white;
+}
+
+.header-trailer>footer{
+    height: 3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-trailer>footer>div{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.header-trailer>footer>div>i{
+    color: white;
+}
+.header-trailer>footer>div>img{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+}
+
+/* editar el hr */
+.contenedor2-trailer>hr{
+    color: #55cac0;
+    width: 30%;
+    
+}
+/* contenedor informacion 551 - 577 */
+.sect-trailer{
+    background-color: #21183C;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+.sect-trailer>section{
+    width: 90%;
+    margin-top: 20px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.sect-trailer>section>div{
+    color: rgb(149, 149, 229);
+    display: flex;
+    gap: 8px;
+
+}
+.sect-trailer>section>h3{
+    color: rgb(149, 149, 229);
+}
+/* editar footer y comentario 578 - 606 */
+.pie-trailer{
+    background-color: #21183C;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.pie-trailer>section{
+width: 90%;
+height: 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.pie-trailer>section>article{
+    width: 100%;
+    height: 4rem;
+    border: 2px solid  rgb(149, 149, 229) ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(149, 149, 229);
+}

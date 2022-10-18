@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* contenedor principal */
+.contenedor{
+    background-color: #272944;
+
+    border-radius: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+/* contenedor secuandario */
+.contenedor-2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    gap: 20px;
+}
+/* editar aside 25-92 */
+.sidebar{
+    width: 12rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    color: white;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo{
+    background-color: #6c6d72;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 40px;
+}
+.main-sidebar{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.nav>a{
+    text-decoration: none;
+    color: white;
+}
+.cuadro{
+margin: 10px;
+width: 1rem;
+height: 1rem;
+background-color: #6c6d72;
+}
+.main-sidebar div{
+    display: flex;
+    align-items: center;
+}
+.cuadro-users{
+    height: 1rem;
+    width: 1rem;
+    background-color: #6c6d72;
+    margin: 10px;
+}
+.div-cuadro{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+  
+}
+.div-cuadro>a{
+    text-decoration: none;
+    color: white;
+  
+}
+.pie-sidebar{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 5rem;
+
+}
+
+/* contenedor users */
+.container{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+/* editar header del contenedor  99-165*/
+.header-container{
+    height: 8rem;
+    display: flex;
+   flex-direction: column;
+}
+.Users{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.types-files{
+    height: 2rem;
+    background-color: #363853;
+    width: 10rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuadro-pequeño{
+    width: 1rem;
+    height: 1rem;
+    background-color: #6c6d72;
+    margin-left: 10px;
+}
+.div-search{
+    justify-content: space-between;
+    display: flex;
+    height: 3rem;
+}
+.art-search{
+ display: flex;
+ height: 3rem;
+ width: 60vh;
+ background-color: #363853;
+ align-items: center;
+}
+.div-idioma{
+    gap: 1rem;
+    display: flex;
+    height: 3rem;
+    width: 30vh;
+}
+.art-idioma{
+    align-items: center;
+    width: 4rem;
+    height: 2rem;
+    background-color: #F9F9FA;
+    display: flex;
+    justify-content: center;
+}
+.div-idioma-2{
+    width: 4rem;
+    height: 2rem;
+    background-color: #363853;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro-2{
+    background-color: #6c6d72;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* contenedor usuarios 167-260*/
+.container-users{
+    width: 100%;
+    height: 30rem;
+    overflow-y: scroll;
+    padding-top: 10px;
+    
+}
+.user{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+}
+.art-user{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    color: white;
+}
+.perfil{
+    height: 5rem;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circulo-perfil{
+ height: 2rem;
+ width: 2rem;
+ background-color: #363853;
+ border-radius: 40px;
+ margin-left: 10px;
+}
+.full-name{
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+    width: 17rem;
+    height: 5rem;
+
+}
+.fecha{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 5rem;
+ 
+}
+.roles{
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+  
+}
+.boton-active{
+    display: flex;
+    flex-grow: 1;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro-active{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    color: white;
+}
+/* articulo resaltado */
+.art-user-2{
+    width: 100%;
+    height: 5rem;
+    background-color: #363853;
+    display: flex;
+    color: white;
+}
+.circulo-perfil-2{
+    height: 2rem;
+    width: 2rem;
+    background-color: #6c6d72;
+    border-radius: 40px;
+    margin-left: 10px;
+   }

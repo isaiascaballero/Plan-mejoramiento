@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(206, 101, 15);
+}
+
+/* contenedor principal */
+.contenedor{
+    display: flex;
+    background-color: black;
+    border-radius: 40px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* contenedor de la informacion */
+.contenedor>section{
+    height: 80%;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* editar header 32-66 */
+.header-logo{
+
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-logo>article{
+    height: 6rem;
+    width: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+   
+}
+.header-logo>article>article{
+    height: 5rem;
+   width: 20rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(206, 101, 15);
+    justify-content: center;
+    border-radius: 30px;
+    text-align: center;
+}
+.header-logo>article>article>p{
+ font-size: 20px;
+}
+.header-logo>article>img{
+    width: 5rem;
+}
+
+/* contenedor de las opciones */
+.contenedor-inf>section{
+    height: 400px;
+    width: 500px;
+    overflow-y: scroll;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-inf>section>article{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(206, 101, 15);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-inf>section>article>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor-inf>section>article:hover{
+    background-color: orange;
+    transition-property: 0.5s;
+    
+}
+.contenedor-inf>section>article>a:hover{
+    color: black;
+}

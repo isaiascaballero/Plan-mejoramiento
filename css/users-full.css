@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* contenedor principal */
+.contenedor{
+    background-color: #272944;
+
+    border-radius: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* contenedor secundario */
+.contenedor-2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    gap: 20px;
+}
+
+/* modificar aside 25-119 */
+.sidebar{
+    width: 12rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    border-radius: 20px;
+    color: white;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+.punto{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.logotipo{
+    display: flex;
+    background-color: #6c6d72;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo>a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+.logotipo h2{
+    font-size: 25px;
+}
+.main-sidebar{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+.nav1>a{
+    text-decoration: none;
+    color: white;
+
+}
+.cuadro{
+margin-top: 10px;
+margin: 10px;
+width: 1rem;
+height: 1rem;
+
+}
+.main-sidebar div{
+    display: flex;
+    align-items: center;
+}
+.cuadro-users{
+    height: 1rem;
+    width: 1rem;
+  
+    margin: 10px;
+}
+.div-cuadro{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+  
+}
+.div-cuadro>a{
+    text-decoration: none;
+    color: white;
+}
+.pie-sidebar{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 5rem;
+
+}
+
+/* contenedor de la informacion */
+.container{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+/* modificar header del container 126-222 */
+.header-container{
+    height: 8rem;
+    display: flex;
+   flex-direction: column;
+}
+.Users{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.types-files{
+    height: 2rem;
+    background-color: #363853;
+    width: 10rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.cuadro-pequeño{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10px;
+}
+.div-search{
+    justify-content: space-between;
+    display: flex;
+    height: 3rem;
+}
+.art-search{
+    border-radius: 20px;
+ display: flex;
+ height: 3rem;
+ width: 60vh;
+ background-color: #363853;
+ color: white;
+ align-items: center;
+}
+.div-idioma{
+    gap: 1rem;
+    display: flex;
+    height: 3rem;
+    width: 30vh;
+}
+.art-idioma{
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #363853;
+    border-radius: 20px;
+}
+.div-idioma-2{
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flecha-idioma{
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+.cuadro-2{
+    background-color: #363853;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+.cuadro-3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+   
+
+
+}
+.cuadro-3 img{
+    max-width: 2rem;
+    max-height: 2rem;
+    border-radius: 30px;
+}
+
+/* contenedor de los usuarios 224-376 */
+.container-users{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    overflow-y: scroll;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: #363853;
+    border-radius: 30px;
+}
+.container-users-2{
+    width: 90%;
+    height: 30rem;
+    overflow-y: scroll;
+    padding-top: 10px;
+    
+}
+.user{
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: white;
+}
+.art-user{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    color: white;
+}
+.perfil{
+    height: 5rem;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circulo-perfil{
+ height: 2rem;
+ width: 2rem;
+ background-color: #363853;
+ border-radius: 40px;
+ margin-left: 10px;
+}
+.full-name{
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+    width: 17rem;
+    height: 5rem;
+
+}
+.fecha{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 5rem;
+ 
+}
+.roles{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    height: 5rem;
+  
+}
+.boton-active{
+    display: flex;
+    flex-grow: 1;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.aux{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    color:white;
+    height: 1rem;
+    width: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.aux-2{
+    margin-right: 5px;
+    color: blue;
+    height: 1rem;
+    width: 1rem;
+}
+.aux-3{
+    margin-right: 5px;
+    color: orangered;
+    height: 1rem;
+    width: 1rem;
+}
+.roles-author{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    height: 5rem;
+   color: blue;
+}
+.roles-moderator{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    height: 5rem;
+   color: orangered;
+}
+.cuadro-active{
+    width: 4rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 196, 37);
+    border-radius: 30px;
+    color: white;
+}
+/* articulo resaltado */
+.art-user-2{
+    width: 100%;
+    height: 5rem;
+    background-color: #272944;
+    border-radius: 30px;
+    display: flex;
+    color: white;
+}
+.circulo-perfil-2{
+    height: 2rem;
+    width: 2rem;
+    background-color: #6c6d72;
+    border-radius: 40px;
+    margin-left: 10px;
+   }
+   .circulo-perfil-2 img{
+    max-width: 2rem;
+    max-height: 2rem;
+    border-radius: 30px;
+   }
+   .circulo-perfil img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+   }

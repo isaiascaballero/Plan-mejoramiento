@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* contenedor principal */
+.contenedor{
+    background-color: #272944;
+
+    border-radius: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* contenedor secundario */
+.contenedor-2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    gap: 20px;
+}
+/* editar aside 24-108  */
+.sidebar{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    border-radius: 20px;
+    color: white;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+.punto{
+    margin-right: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.logotipo{
+    display: flex;
+    background-color: #6c6d72;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.main-sidebar{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.cuadro{
+margin-top: 10px;
+margin: 10px;
+width: 1rem;
+height: 1rem;
+
+}
+.main-sidebar div{
+    display: flex;
+    align-items: center;
+}
+.cuadro-users{
+    height: 1rem;
+    width: 1rem;
+
+    margin: 10px;
+}
+.div-cuadro{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+   
+}
+.div-cuadro>a{
+    color: white;
+    text-decoration: none;
+}
+.pie-sidebar{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 5rem;
+
+}
+
+/* container de informacion */
+.container{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    
+}
+.header-container{
+    height: 8rem;
+    display: flex;
+   flex-direction: column;
+}
+/* modificar div search 122-192 */
+.div-search{
+    justify-content: space-between;
+    display: flex;
+    height: 3rem;
+}
+.art-search{
+    border-radius: 20px;
+ display: flex;
+ height: 3rem;
+ width: 60vh;
+ background-color: #363853;
+ color: white;
+ align-items: center;
+}
+.div-idioma{
+    gap: 1rem;
+    display: flex;
+    height: 3rem;
+    width: 30vh;
+}
+.art-idioma{
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #363853;
+    border-radius: 20px;
+}
+.div-idioma-2{
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flecha-idioma{
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+.cuadro-2{
+    background-color: #363853;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+.cuadro-3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+
+
+
+}
+.cuadro-3 img{
+    max-width: 2rem;
+    max-height: 2rem;
+    border-radius: 30px;
+}
+ /* div categories 193-216 */
+.Users{
+
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.types-files{
+    height: 2rem;
+    background-color: #363853;
+    width: 10rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+.cuadro-pequeño{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10px;
+}
+
+/* contenedor de los articulos */
+.container-users{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    overflow-y: scroll;
+}
+/* modificar espacios de los articulos */
+.categories{
+    display: flex;
+    gap: 30px;
+}
+/* articulos de peliculas 237-495 */
+.art-categories{
+    width: 19rem;
+    height: 15rem;
+    background-color: #363853;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.center-art{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-categories{
+    
+    width: 100%;
+    height: 5rem;
+    background-image: url(../image/images-all-posts/img1.jpg);
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    
+}
+.header-categories-2{
+    width: 100%;
+    height: 5rem;
+    background-image: url(../image/images-all-posts/img2.jpg);
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+.header-categories-3{
+    width: 100%;
+    height: 5rem;
+    background-image: url(../image/images-all-posts/img3.jpg);
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+.header-categories-4{
+    width: 100%;
+    height: 5rem;
+    background-image: url(../image/images-all-posts/img4.jpg);
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.header-categories-5{
+    width: 100%;
+    height: 5rem;
+    background-image: url(../image/images-all-posts/img5.jpg);
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+.header-categories-6{
+    width: 100%;
+    height: 5rem;
+    background-image: url(../image/images-all-posts/img6.jpg);
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+.active{
+    height: 1rem;
+    width: 5rem;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    transform: translatey(55px);
+    margin-left: 15px;
+    
+}
+.pending{
+    height: 1rem;
+    width: 5rem;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    transform: translatey(55px);
+    margin-left: 15px;
+}
+.delete{
+    height: 1rem;
+    width: 5rem;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    transform: translatey(55px);
+    margin-left: 15px;
+}
+.div-categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 93%;
+    margin-left: 12px;
+}
+.div-perfil{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/* fotos de perfil */
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../image/cloudy.jpg);
+    background-size: 100%;
+    border-radius: 30px;
+}
+.perfil2{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-image: url(../image/darek.jpg);
+        background-size: 100%;
+        border-radius: 30px;
+    
+}
+.perfil3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../image/anna.jpg);
+    background-size: 100%;
+    border-radius: 30px;
+}
+
+.perfil3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../image/pumpkin.jpg);
+    background-size: 100%;
+    border-radius: 30px;
+}
+.perfil4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../image/yelsy.jpg);
+    background-size: 100%;
+    border-radius: 30px;
+}
+.perfil5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../image/sabella.jpg);
+    background-size: 100%;
+    border-radius: 30px;
+}
+.perfil6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../image/pumpkin.jpg);
+    background-size: 100%;
+    border-radius: 30px;
+}
+.titulo{
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 10px;
+}
+.reaction{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3rem;
+    align-items: center;
+}
+.boton-transparente{
+    height: 2rem;
+    width: 7rem;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-transparente-2{
+    height: 2rem;
+    width: 7rem;
+    border: 2px solid green;
+    color: green;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-transparente-3{
+    height: 2rem;
+    width: 7rem;
+    border: 2px solid red;
+    color: red;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reaction-categories{
+    display: flex;
+    gap: 10px;
+}
+.aux{
+    height: 1rem;
+    width: 1rem;
+    color: white;
+}
+.vistas{
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+.corazon{
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+.comentario{
+    display: flex;
+    gap: 5px;
+    color: white;
+}
